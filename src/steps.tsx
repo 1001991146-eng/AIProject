@@ -104,6 +104,18 @@ export const STEPS: Step[] = [
     iconClass: 'text-blue-600',
     content: (
       <div className="space-y-6">
+        <div className="relative h-64 w-full rounded-2xl overflow-hidden shadow-lg mb-6">
+          <img 
+            src="https://picsum.photos/seed/ai-lab-students/1200/600" 
+            alt="AI Lab Students" 
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+            <p className="text-white font-bold text-lg">מדעני העתיד של ישראל מתחילים כאן</p>
+          </div>
+        </div>
+
         <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
           <h3 className="text-xl font-bold text-blue-900 mb-3 flex items-center gap-2">
             <Brain className="w-6 h-6" />

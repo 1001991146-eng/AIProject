@@ -32,7 +32,8 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const progressPercentage = (currentStep / (STEPS.length - 1)) * 100;
+  const progressPercentage = currentStep === 0 ? 0 : ((currentStep) / (STEPS.length - 1)) * 100;
+  const isIntro = currentStep === 0;
 
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4 font-heebo" dir="rtl">
@@ -87,8 +88,12 @@ export default function App() {
         {/* Progress Bar */}
         <div className="px-8 pt-8">
           <div className="flex justify-between mb-2">
-            <span className="text-sm font-bold text-gray-600">התקדמות: {Math.round(progressPercentage)}%</span>
-            <span className="text-sm font-bold text-gray-600">שלב {currentStep + 1} מתוך {STEPS.length}</span>
+            <span className="text-sm font-bold text-gray-600">
+              {isIntro ? "הזנקה" : `התקדמות: ${Math.round(progressPercentage)}%`}
+            </span>
+            <span className="text-sm font-bold text-gray-600">
+              {isIntro ? "מתחילים עכשיו" : `שלב ${currentStep} מתוך ${STEPS.length - 1}`}
+            </span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-3 mb-8 overflow-hidden">
             <motion.div 
