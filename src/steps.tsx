@@ -6,7 +6,7 @@ import {
   Brain, 
   Calculator, 
   RefreshCw, 
-  Code, 
+  Code,
   FileCheck,
   HelpCircle,
   AlertCircle,
@@ -180,7 +180,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 1: סיעור מוחות",
+    title: "שלב מקדים: סיעור מוחות",
     icon: Lightbulb,
     iconClass: 'text-yellow-500',
     content: (
@@ -260,7 +260,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 2: הגדרת הבעיה",
+    title: "(הפרויקט) שלב 1: הגדרת הבעיה",
     icon: Target,
     iconClass: 'text-red-500',
     content: (
@@ -311,7 +311,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 3: תכנון הפרויקט",
+    title: "(המערכת)שלב 2: תכנון הפרויקט",
     icon: ListChecks,
     iconClass: 'text-indigo-500',
     content: (
@@ -346,7 +346,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 4: הטיות ואתיקה",
+    title: "תכנון הפרויקט -ניתוח הטיות ואתיקה ",
     icon: ShieldCheck,
     iconClass: 'text-orange-500',
     content: (
