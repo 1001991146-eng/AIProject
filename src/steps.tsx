@@ -381,7 +381,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 5: תכנון עבודה",
+    title: "תכנוןו וחלוקת עבודה",
     icon: ListChecks,
     iconClass: 'text-blue-500',
     content: (
@@ -408,7 +408,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 6: נתונים ודיוק המודל",
+    title: "הטיפול בנתונים ורמת הדיוק של המודל",
     icon: Database,
     iconClass: 'text-purple-500',
     content: (
@@ -462,7 +462,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 7: קוד המערכת (פייתון)",
+    title: " קוד המערכת (פייתון)",
     icon: Code,
     iconClass: 'text-green-600',
     content: (
@@ -612,7 +612,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 8: רפלקציה",
+    title: "רפלקציה על הפרויקט ועל תהליך העבודה",
     icon: RefreshCw,
     iconClass: 'text-teal-500',
     content: (
@@ -646,7 +646,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 9: הצגת הפרויקט",
+    title: "הצגת הפרויקט",
     icon: Presentation,
     iconClass: 'text-pink-500',
     content: (
@@ -678,7 +678,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב 10: הגשה סופית",
+    title: "הגשה סופית",
     icon: Send,
     iconClass: 'text-green-700',
     content: (
