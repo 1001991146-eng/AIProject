@@ -180,7 +180,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "שלב מקדים: סיעור מוחות",
+    title: " סיעור מוחות",
     icon: Lightbulb,
     iconClass: 'text-yellow-500',
     content: (
@@ -260,7 +260,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "(הפרויקט) שלב 1: הגדרת הבעיה",
+    title: " הגדרת הבעיה",
     icon: Target,
     iconClass: 'text-red-500',
     content: (
@@ -311,7 +311,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "(המערכת)שלב 2: תכנון הפרויקט",
+    title: "תכנון הפרויקט",
     icon: ListChecks,
     iconClass: 'text-indigo-500',
     content: (
