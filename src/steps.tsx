@@ -311,7 +311,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "תכנון הפרויקט",
+    title: "תכנון המערכת",
     icon: ListChecks,
     iconClass: 'text-indigo-500',
     content: (
