@@ -346,7 +346,7 @@ export const STEPS: Step[] = [
     )
   },
   {
-    title: "תכנון הפרויקט -ניתוח הטיות ואתיקה ",
+    title: "ניתוח הטיות ואתיקה ",
     icon: ShieldCheck,
     iconClass: 'text-orange-500',
     content: (
